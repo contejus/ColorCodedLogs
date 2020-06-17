@@ -1,4 +1,4 @@
-Package: org.thebigboss.elite
+Package: com.contejus.colorcodedlogs
 Name: ColorCodedLogs
 Depends: mobilesubstrate, org.thebigboss.libcolorpicker
 Version: 1.6.1

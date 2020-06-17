@@ -13,13 +13,13 @@
 			<key>default</key>
 			<true/>
 			<key>defaults</key>
-			<string>org.thebigboss.elite</string>
+			<string>com.contejus.colorcodedlogs</string>
 			<key>key</key>
 			<string>enabled</string>
 			<key>label</key>
 			<string>Enabled</string>
             <key>PostNotification</key>
-            <string>org.thebigboss.elite/settingsChanged</string>
+            <string>com.contejus.colorcodedlogs/settingsChanged</string>
 		</dict>
 
         <dict>
@@ -35,13 +35,13 @@
             <key>libcolorpicker</key>
             <dict>
                 <key>defaults</key>
-                <string>org.thebigboss.elite</string>
+                <string>com.contejus.colorcodedlogs</string>
                 <key>key</key>
                 <string>incomingCall</string>
                 <key>fallback</key>
                 <string>24579C</string>
                 <key>PostNotification</key>
-                <string>org.thebigboss.elite/settingsChanged</string>
+                <string>com.contejus.colorcodedlogs/settingsChanged</string>
                 <key>alpha</key>
                 <true/>
             </dict>
@@ -57,13 +57,13 @@
             <key>libcolorpicker</key>
             <dict>
                 <key>defaults</key>
-                <string>org.thebigboss.elite</string>
+                <string>com.contejus.colorcodedlogs</string>
                 <key>key</key>
                 <string>outgoingCall</string>
                 <key>fallback</key>
                 <string>007D00</string>
                 <key>PostNotification</key>
-                <string>org.thebigboss.elite/settingsChanged</string>
+                <string>com.contejus.colorcodedlogs/settingsChanged</string>
                 <key>alpha</key>
                 <true/>
             </dict>
@@ -79,13 +79,13 @@
             <key>libcolorpicker</key>
             <dict>
                 <key>defaults</key>
-                <string>org.thebigboss.elite</string>
+                <string>com.contejus.colorcodedlogs</string>
                 <key>key</key>
                 <string>missedCall</string>
                 <key>fallback</key>
                 <string>DA0000</string>
                 <key>PostNotification</key>
-                <string>org.thebigboss.elite/settingsChanged</string>
+                <string>com.contejus.colorcodedlogs/settingsChanged</string>
                 <key>alpha</key>
                 <true/>
             </dict>
