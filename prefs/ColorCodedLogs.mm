@@ -1,7 +1,6 @@
-#import <Preferences/PSSpecifier.h>
-#import <Preferences/PSListController.h>
+#import <Preferences/Preferences.h>
 
-#define prefPath @"/User/Library/Preferences/com.contejus.colorcodedlogs.plist"
+#define prefPath @"/User/Library/Preferences/org.thebigboss.elite.plist"
 
 @interface PFSimpleLiteColorCell : NSObject
 - (void)updateCellDisplay;
@@ -47,7 +46,7 @@
     //delete pref file.
     [[NSFileManager defaultManager] removeItemAtPath:prefPath error:nil];
     //because touching a PSButtonCell isn't considered changing anything so it won't fire in prefs normally.
-    CFNotificationCenterPostNotification(CFNotificationCenterGetDarwinNotifyCenter(), CFSTR("com.contejus.colorcodedlogs/settingsChanged"), NULL, NULL, YES);
+    CFNotificationCenterPostNotification(CFNotificationCenterGetDarwinNotifyCenter(), CFSTR("org.thebigboss.elite/settingsChanged"), NULL, NULL, YES);
     //update cell info
     for (PSSpecifier *specifier in [self specifiers]) {
         if ([specifier.target isKindOfClass:[PFSimpleLiteColorCell class]]) {

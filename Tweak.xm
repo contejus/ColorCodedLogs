@@ -21,7 +21,7 @@
 #define kCFCoreFoundationVersionNumber_iOS_13_0 1665.15
 #endif
 
-#define prefPath @"/User/Library/Preferences/com.contejus.colorcodedlogs.plist"
+#define prefPath @"/User/Library/Preferences/org.thebigboss.elite.plist"
 
 #define defaultIncomingColor @"#24579c"
 #define defaultOutgoingColor @"#007D00"
@@ -269,7 +269,7 @@ static void receivedNotification(CFNotificationCenterRef center, void *observer,
 		CFNotificationCenterGetDarwinNotifyCenter(),
 		NULL,
 		receivedNotification,
-		CFSTR("com.contejus.colorcodedlogs/settingsChanged"),
+		CFSTR("org.thebigboss.elite/settingsChanged"),
 		NULL,
 		CFNotificationSuspensionBehaviorCoalesce);
 
